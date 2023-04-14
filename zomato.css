@@ -1,0 +1,325 @@
+*{
+    box-sizing: border-box; /*avoid overflow of content*/
+    margin: 0px;
+    padding: 0px;
+}
+
+#main-nav{
+    border: 1px solid black;
+    width: 100%;
+    height: 400px;
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    /* background-color: red; */
+   
+}
+
+#nav{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+#nav1{
+    /* border: 1px solid black; */
+    width: 55%;
+    height: 100px;
+}
+#nav2{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 45%;
+    height: 100px;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+#navitem{
+   /* border: 1px solid black; */
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    left: 65px;
+    font-size: 15px;
+    color: white;
+
+}
+.navlist{
+   /* border: 1px solid black;  */
+   text-decoration: none;   
+   color: white;
+}
+
+#image{
+    width: 100%;
+    height: 120px;
+
+}
+#logo{
+    width: 28%;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 450px;
+}
+#word-box{
+   /* border: 1px solid black;  */
+   color: white;
+   width: 100%;
+   height: 40px;
+   font-weight: 100;
+   font-size: large;
+   margin-left: 300px;
+   
+
+}
+
+#dropdown{
+    border: 1px solid white;
+    width:55%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 290px;
+}
+#drop{
+    border: 1px solid white;
+    width:35%;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: white;
+
+}
+
+#search{
+    border: 1px solid white;
+    width:65%;
+    height: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+}
+
+#main2{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 350px;
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    justify-content:space-around;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+#hotel{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    width: 350px;
+    height: 320px;
+    border-radius: 10px;
+    transition-property: height,width,1s;
+    position: relative;
+    box-shadow: 10px 10px 10px silver;
+
+}
+/* #hotel:hover{
+    height:340px;
+    width: 370px;
+
+} */
+#cafe{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    width: 350px;
+    height: 320px;
+    border-radius: 10px;
+    transition-property: height,width,1s;
+    position: relative;
+    box-shadow: 10px 10px 10px silver;
+
+
+}
+
+/* #cafe:hover{
+    height:340px;
+    width: 370px;
+
+} */
+#club{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    width: 350px;
+    height: 320px;
+    border-radius: 10px;
+    transition-property: height,width,1s;
+    position: relative;
+    box-shadow: 10px 10px 10px silver;
+
+
+}
+/* #club:hover{
+    height:340px;
+    width: 370px;
+
+} */
+#hotel1{
+    /* border: 1px solid black; */
+    width: 350px;
+    height: 240px;
+    border-radius: 10px;
+        
+    }
+
+#hotel2{
+    /* border: 1px solid black; */
+    width: 350px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+#hotel3{
+    /* border: 1px solid black; */
+    width: 350px;
+    height: 240px;
+    border-radius: 10px;
+     
+}
+#chole{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+}
+
+#drinks{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#party{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#main3{
+    /* border: 1px solid black; */
+    height:400px;
+    width: 100%;
+    margin-top: 50px;
+    /* display: flex; */
+}
+#mainimg{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+#colle{
+    /* border: 1px solid black; */
+height: 80px;
+width: 100%;
+display: flex;
+}
+#list{
+    /* border: 1px solid black; */
+    height: 80px;
+    width: 70%;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: large;
+}
+#loc{
+    /* border: 1px solid black; */
+    height: 80px;
+    width: 30%;
+    padding-left: 150px;
+    padding-top: 50px;
+    color: rgb(211, 84, 105);
+}
+
+#img1{
+    /* border:1px solid black; */
+    height: 300px;
+    width: 20%;
+    box-shadow: 10px 10px 10px silver;
+    border-radius: 10px;
+    background-image: url(./table.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    
+    
+}
+#img2{
+    /* border:1px solid black; */
+    height: 300px;
+    width: 20%;
+    box-shadow: 10px 10px 10px silver;
+    border-radius: 10px;
+    background-image: url(./drink.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    
+    
+}
+#img3{
+    /* border:1px solid black; */
+    height: 300px;
+    width: 20%;
+    box-shadow: 10px 10px 10px silver;
+    border-radius: 10px;
+    background-image: url(./Romantic.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    
+    
+}
+#img4{
+    /* border:1px solid black; */
+    height: 300px;
+    width: 20%;
+    box-shadow: 10px 10px 10px silver;
+    border-radius: 10px;
+    background-image: url(./Glass.jpg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    
+
+}
+#main4{
+    /* border: 1px solid black; */
+    height: 100px;
+    margin-top: 50px;
+    font-size: xx-large;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+#main5{
+    /* border: 1px solid black; */
+    grid-template-columns: repeat(3,300px);
+    display: grid;
+    row-gap: 30px;
+    column-gap: 70px;
+    /* margin-left: 70px; */
+    padding-left: 70px;
+}
+
+.city{
+    border: 1px solid black;
+    height: 100px;
+    width: 350px;
+    box-shadow: 5px 5px 10px silver;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-left: 10px;
+    
+}
+#see{
+    padding-top: 35px;
+    padding-left: 130px;
+}
